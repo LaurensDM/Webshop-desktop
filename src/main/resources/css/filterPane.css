@@ -1,0 +1,51 @@
+.mfx-filter-dialog  .mfx-button{
+    -mfx-color: #EC4842;
+    -fx-background-color: #EC4842;
+    -fx-text-fill: white;
+}
+
+
+/*.mfx-filter-pane .mfx-button {*/
+/*    -mfx-color: #EC4842;*/
+/*    -fx-text-fill: white;*/
+/*}*/
+
+.mfx-filter-pane .mfx-combo-box:focus-within {
+    -fx-background-color: #EC4842;
+    -mfx-color: #EC4842;
+    -fx-text-fill: white;
+}
+
+
+.mfx-filter-pane .mfx-combo-box .caret .mfx-ripple-generator {
+    -mfx-ripple-color: rgba(0, 0, 0, 0.3);
+    -mfx-ripple-radius: 14;
+}
+
+.mfx-filter-pane .mfx-combo-box-cell:hover {
+    -fx-background-color: rgb(236, 72, 66, 0.5);
+}
+
+.mfx-filter-pane .mfx-combo-box-cell:selected {
+    -fx-background-color: rgb(236, 72, 66, 0.5);
+}
+
+.mfx-filter-pane .header #filterIcon .mfx-ripple-generator {
+    -mfx-ripple-radius: 20;
+    -mfx-ripple-color: rgba(0, 0, 0, 0.3);
+}
+
+.mfx-filter-pane .header #filterIcon:hover {
+    -fx-background-color: rgba(0, 153, 51, 0.4);
+}
+
+.mfx-filter-pane .header #filterIcon:hover .mfx-font-icon {
+    -mfx-color: #6b6b6b;
+}
+
+.mfx-filter-pane .active-filter {
+    -fx-min-height: 32;
+    -fx-background-color: #EC4842;
+    -fx-background-radius: 15;
+    -fx-padding: 0 15 0 15;
+}

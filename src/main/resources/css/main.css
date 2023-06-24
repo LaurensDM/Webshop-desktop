@@ -1,0 +1,122 @@
+@import "mfxButton.css";
+@import "mfxTextField.css";
+@import "dataGrid.css";
+@import "fonts.css";
+
+
+.rootPane {
+    -mfx-color: #EC4842;
+    -mfx-main: #EC4842;
+    -fx-background-color: snow;
+}
+
+.title .text{
+    -fx-font-family: 'Comfortaa';
+    -fx-font-size: 46px;
+    -fx-font-weight: bold;
+}
+
+
+.mfx-checkbox {
+    /*-fx-text-fill: #EC4842;*/
+    -mfx-main: #EC4842;
+    -mfx-gray: #EC4842;
+}
+
+.button {
+    -fx-background-color: #EC4842;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: "Comfortaa Regular";
+    -fx-font-weight: bold;
+    -fx-padding: 6px 12px;
+    -fx-background-radius: 4px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 8, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 10, 0, 0, 3);
+}
+
+
+.mfx-checkbox .ripple-container .mfx-ripple-generator {
+    -mfx-ripple-color: red;
+    -fx-opacity: 0.5;
+}
+
+.label {
+    -fx-font-family: 'Comfortaa Regular';
+}
+
+.mfx-button {
+    -fx-font-family: 'Comfortaa Regular';
+}
+
+.fx-button {
+    -fx-font-family: 'Comfortaa Regular';
+    -fx-background-color: #EC4842;
+
+}
+
+.mfx-text-field {
+    -fx-font-family: 'Comfortaa Regular';
+}
+
+#customMenu #buttonGroup .mfx-icon-wrapper:hover {
+    -fx-background-color: black;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+#customMenu {
+    -fx-background-color: #EC4842;
+    -fx-padding: 10px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+
+#customMenu .label {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+
+#PaperComponent {
+    -fx-font-size: 32px;
+    -fx-background-color: #EC4842;
+    -fx-text-fill: black;
+    /*-fx-border-width: 0 0 0 1px;*/
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-min-width: 300px;
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0);*/
+}
+
+
+#customMenu .mfx-button {
+    -fx-background-color: none;
+    -fx-text-fill: black;
+    -fx-background-radius: 1px;
+    -fx-border-radius: 1px;
+}
+
+
+.mfx-tooltip .container .label {
+    -fx-background-color: #EC4842;
+    -fx-border-color: black;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.mfx-table-column {
+    -fx-background-color: #EC4842;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+

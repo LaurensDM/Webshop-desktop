@@ -1,0 +1,15 @@
+.mfx-button{
+    -fx-background-color: #EC4842;
+    -fx-text-fill: white;
+    -fx-pref-width: 150px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.mfx-button:focused{
+    -fx-background-color: #EC4842;
+    -fx-text-fill: white;
+    -fx-pref-width: 150px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;;
+}

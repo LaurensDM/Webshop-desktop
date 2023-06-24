@@ -1,0 +1,9 @@
+/.idea/*
+/lib/*
+/target/*
+
+application.properties
+settings.properties
+
+2023-java-gent13.iml
+/JavaServer/src/main/ssl/*

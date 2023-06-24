@@ -1,0 +1,18 @@
+.mfx-paginated-table-view .default-footer .mfx-pagination .mfx-page:selected{
+    -fx-background-color: #EC4842;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 15, 0.16, 2, 4);
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+}
+
+.mfx-paginated-table-view {
+    -fx-font-family: 'Comfortaa Regular';
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+}
+
+.mfx-paginated-table-view  .mfx-table-row:selected{
+    /*-fx-text-fill: white;*/
+    -fx-font-weight: bold;
+}
